@@ -1,4 +1,4 @@
-package library.test;
+package custom.spring.library;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -9,8 +9,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootConfiguration
 @ComponentScan
 @Slf4j
-public class LibraryConfiguration {
-    LibraryConfiguration() {
-        log.info("LibraryConfiguration loaded");
+public class CustomLibraryConfiguration {
+    CustomLibraryConfiguration() {
+        log.info("CustomSpringLibrary loaded");
     }
 }

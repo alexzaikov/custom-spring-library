@@ -1,4 +1,4 @@
-package library.test;
+package custom.spring.library;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
