@@ -52,4 +52,7 @@ bootJar {
 
 jar {
     enabled = true
+//    baseName = 'my-app-name'
+//    version =  '0.0.1'
+//    archiveClassifier.set("")
 }
